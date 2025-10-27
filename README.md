@@ -1,6 +1,6 @@
 # Japanese Language Tutor Bot
 
-#Project Overview
+#**Project Overview**
 
   The Japanese Language Tutor Bot is an AI-powered conversational learning tool designed to help users practice and improve their Japanese language skills.  
 It uses a Large Language Model (LLM) to engage in realistic dialogues, correct grammar and vocabulary errors, and explain mistakes in simple English.  
@@ -9,7 +9,7 @@ Unlike static language-learning apps, this tutor adapts to the learner’s abili
 As users make progress, the system automatically adjusts sentence complexity and grammar difficulty based on JLPT (Japanese-Language Proficiency Test) levels.  
 Session data are logged for progress visualization and analysis.
 
-#Problem Statement
+#**Problem Statement**
 
  Traditional language apps rely on pre-set questions and fixed feedback, offering little personalization.  
 Learners of Japanese often struggle with context, verb conjugation, and particle usage, making feedback essential.
@@ -19,7 +19,7 @@ This project explores whether a conversational AI tutor can:
 - Offer brief, human-like explanations, and  
 - Adapt its difficulty dynamically to learner performance.  
 
-#Proposed Method
+#**Proposed Method**
 
  1. **LLM-Driven Conversation Engine**  
    - Build a Streamlit chat interface for Japanese dialogue.  
@@ -39,7 +39,7 @@ This project explores whether a conversational AI tutor can:
    - Log each exchange as JSON (user input, correction, topic, mastery).  
    - Plot progress and error trends with Matplotlib / Altair.
 
-#Data Sources
+#**Data Sources**
 
 - Synthetic data only (generated from simulated learner sessions).  
 - Stored in `/logs/sessions/` as JSON for evaluation. 
